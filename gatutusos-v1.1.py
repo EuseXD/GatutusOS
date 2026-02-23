@@ -20,16 +20,19 @@ try:
 	 print(user + "~$:")
 	 comando = input().lower()
 	 if comando == "help":
-	 	print("Comandos: propiedades, print, change, juegos, cmr")
+	 	print("Comandos: propiedades, print, change, juegos, cmr, cat, for")
 	 elif comando == "miau":
 	 	print("Miau, ¡miau!, em, miau. :)")
 	 	time.sleep(0.01)
 	 	print("Miau, em... ¡miau!")
 	 	time.sleep(0.01)
 	 elif comando == "propiedades":
+	 	print("/ __/")
+	 	print("|  ั⁠ω  ⁠ั|")
 	 	print("OS: GatutusOS")
-	 	print("Version: 1.0")
-	 	print("Creador: Jnanilol en TikTok, EuseOMG en YT")
+	 	print("Version: 1.1")
+	 	print("Creador: Jnanilol en TikTok, EuseOMG en YT.")
+	 	print("Repositorio: EuseXD/GatutusOS en GitHub.")
 	 	print("Bienvenido a GatutusOS. :3")
 	 elif comando == "print":
 	 	a_imprimir = input()
@@ -88,17 +91,27 @@ try:
 	 	print("Woof, woof.")
 	 elif comando == "cmr":
 	 	print("CoMandos Raros")
-	 	print("Lista de CMR: woof, miau")	
+	 	print("Lista de CMR: woof, miau, cat")
+	 elif comando == "cat":
+	 	print("/ __/")
+	 	print("|  ั⁠ω  ⁠ั|")
+	 elif comando == "for":
+	 	print("Cadena a repetir")
+	 	palabra_for = input()
+	 	for iteracion in range(100):
+	 		iteracion = iteracion + 1
+	 		time.sleep(0.01)
+	 		print(palabra_for)
 	 else:
 	 	print("Orden no encontrada. :( Usa help para más informacion.")
 # Este bloque de codigo informa sobre una excepcion que impide ejecutar GatutusOS correctamente.
 except:
 	print("/ __/")
-	time.sleep(0.001)
+	time.sleep(0.01)
 	print("|  ั⁠ω  ⁠ั|")
-	time.sleep(0.001)
+	time.sleep(0.01)
 	print("Panic!")
-	time.sleep(0.001)
+	time.sleep(0.01)
 	print("System error:")
-	time.sleep(0.001)
+	time.sleep(0.01)
 	print("A line in the code has a exception and the execution is impossible")
